@@ -1,5 +1,5 @@
 /* ============================================================
-   K-Ball — Airbnb-inspired Design System
+   K League — Airbnb-inspired Design System
    ============================================================ */
 
 :root {
@@ -137,6 +137,7 @@ img {
    ============================================================ */
 .app-shell {
   min-height: 100vh;
+  min-height: 100dvh;
   display: flex;
   align-items: flex-start;
   justify-content: center;
@@ -145,7 +146,8 @@ img {
   position: relative;
   width: 100%;
   max-width: 430px;
-  min-height: 100vh;
+  height: 100vh;
+  height: 100dvh;
   background: var(--white);
   display: flex;
   flex-direction: column;
@@ -156,12 +158,10 @@ img {
     padding: 32px 16px 48px;
   }
   .phone-frame {
-    min-height: auto;
     height: calc(100vh - 80px);
     max-height: 920px;
     border-radius: 32px;
     box-shadow: var(--shadow-float);
-    overflow: hidden;
   }
 }
 

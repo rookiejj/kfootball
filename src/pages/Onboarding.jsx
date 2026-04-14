@@ -32,7 +32,7 @@ export default function Onboarding() {
           <div className="onb-screen">
             <div className="onb-brand">K</div>
             <h1 className="onb-title">K리그와 해외파,<br/>내 팀만 깔끔하게.</h1>
-            <p className="onb-sub">직관러를 위한 K-Ball이 시작됐습니다.<br/>응원팀 일정·경기장·하이라이트를 한눈에.</p>
+            <p className="onb-sub">직관러를 위한 K League가 시작됐습니다.<br/>응원팀 일정·경기장·하이라이트를 한눈에.</p>
             <div style={{ flex: 1 }} />
             <p className="muted" style={{ fontSize: 12, marginBottom: 16 }}>1 / 3</p>
           </div>

@@ -79,7 +79,7 @@ export default function Match() {
 
   const handleShare = () => {
     if (navigator.share) {
-      navigator.share({ title: 'K-Ball', text: `${home.name} vs ${away.name}` }).catch(() => {});
+      navigator.share({ title: 'K League', text: `${home.name} vs ${away.name}` }).catch(() => {});
     } else {
       showToast('링크가 복사되었습니다');
     }

@@ -1,4 +1,4 @@
-// Mock data for K-Ball prototype.
+// Mock data for K League prototype.
 // Mirrors the shape we confirmed from API-Football, with trimmed fields.
 
 export const TODAY = new Date('2026-04-15T10:00:00+09:00');

@@ -32,7 +32,7 @@ export default function Home() {
   return (
     <div className="screen">
       <Header
-        title="K-Ball"
+        title="K League"
         actions={
           <>
             <button className="icon-btn" aria-label="검색" onClick={() => showToast('검색은 곧 추가됩니다')}>🔍</button>
